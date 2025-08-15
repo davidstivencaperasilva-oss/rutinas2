@@ -1,3 +1,7 @@
+import cors from "cors";
+// ...
+app.use(cors()); // Permite peticiones desde cualquier origen (ideal para pruebas).
+
 import express from "express";
 import cors from "cors";
 import fetch from "node-fetch";
